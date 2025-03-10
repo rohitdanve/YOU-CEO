@@ -1,0 +1,449 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+    src: url('fonts/Cairo-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+
+body {
+
+    font-family: 'Cairo', sans-serif;
+}
+
+@media (min-width:1200px) {
+    .container {
+        max-width: 1170px;
+        padding: 0px 15px;
+    }
+}
+
+p {
+    font-size: 18px;
+    color: #575757;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+li {
+    font-size: 18px;
+}
+
+.btn {
+    border-radius: 0px !important;
+}
+
+.chief_excutive_section h1 {
+    font-weight: 700;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+
+.chief_excutive_section h1>span {
+    color: #006bb3;
+
+}
+
+.chief_excutive_section h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.chief_excutive_section p {
+    padding: 0 150px;
+    font-weight: 400;
+}
+
+.chief_excutive_section table th {
+    padding: 10px 20px !important;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #000 !important;
+}
+
+.chief_excutive_section table td {
+    padding: 20px 20px !important;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #000 !important;
+}
+
+table {
+    border: 1px solid #000 !important;
+}
+
+
+.btn {
+    background: #BC256C;
+    border-color: #BC256C;
+}
+
+.btn:hover {
+    background: #006bb3;
+    border-color: #006bb3;
+}
+
+
+.section_2 {
+    background-color: #e8ecf5;
+}
+
+.section_2 .p1 {
+    color: #006bb3;
+}
+
+.section_2 .p2 {
+    color: #000;
+}
+
+.every_conference h2>span {
+    color: #006bb3;
+
+}
+
+.every_conference .row_border {
+    border: 1px solid #000;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.every_conference p {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.every_conference li {
+    font-weight: 400;
+}
+
+.every_conference li {
+    color: #bc246b;
+}
+
+.every_conference li>span {
+    color: #000;
+}
+
+.game_changing_section .container_color {
+    background-color: #006bb3;
+    padding: 0 60px;
+}
+
+.game_changing_section .game_change_para {
+    font-size: 16px;
+    padding: 0 80px;
+
+}
+
+
+.books_section .bookcard {
+    background-size: cover !important;
+    background-position: center !important;
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.books_section .bookcard p {
+    text-align: center;
+    font-size: 22px;
+}
+
+.slider_section p {
+    font-size: 22px;
+}
+
+.what_inside_section .color_blue {
+    background-color: #006CB4;
+}
+
+
+
+.what_inside_section .color_pink {
+    background-color: #bc246b;
+}
+
+.book_section h5 {
+    padding: 9px;
+    margin: 0 auto;
+    font-weight: 600;
+}
+
+
+.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+    padding-top: 22px;
+    margin-bottom: 8px
+}
+
+.my_card {
+    padding: 50px 30px 38px;
+    border: 1px solid #000;
+}
+
+
+.book_section img {
+    top: -15%;
+    left: 5%;
+    height: 30px;
+}
+
+.book_2_section img {
+    top: -24%;
+    left: 5%;
+    height: 40px;
+}
+
+.you_ceo_section .contain_color {
+    background-color: #eef2f9;
+}
+
+.centorer {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.text-dark {
+    color: #333;
+}
+
+.feature {
+    margin: 20px 0;
+    border: 1px solid #d8e3f0;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #eef2f9;
+}
+
+
+.you_ceo_section h2 {
+    font-size: 18px;
+    color: #006CB4;
+    margin: 0;
+}
+
+.description {
+    background-color: #eef2f9;
+    padding: 15px;
+}
+
+.description p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+
+.feature p {
+    font-size: 14px;
+    color: #555;
+    margin: 0;
+}
+
+.one_last_time_section h5 {
+    color: #006CB4;
+    font-weight: 600;
+    margin: 0;
+    padding: 10px 0 0 0;
+}
+
+.one_last_time_section .gap_class {
+    padding: 20px 30px;
+}
+
+.testimonial_section {
+    background-color: #EFF2F9;
+}
+
+.testimonial_section .card_body {
+    border: 1px solid #006CB4;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.profile-card {
+    max-width: 400px;
+    border: 1px solid #006CB4;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f8f9fa;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-header img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.profile-name {
+    font-weight: bold;
+}
+
+.profile-subtitle {
+    color: gray;
+    font-size: 14px;
+}
+
+.profile-header img {
+    height: 60px;
+    width: 60px !important;
+}
+
+
+
+
+.order_now_section p {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+
+/* ---------------------top---------------------------- */
+#button {
+    display: inline-block;
+    background-color: #bc246b;
+    width: 43px;
+    height: 35px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 40px;
+    right: 24px;
+    transition: background-color .3s,
+        opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+    color: #FFF;
+}
+
+
+
+#button:hover {
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+
+#button:active {
+    background-color: #ffffff;
+}
+
+#button.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media(max-width:1024px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    h2 .counter {
+        font-size: 30px;
+    }
+
+    .books_section .bookcard p {
+        font-size: 18px;
+    }
+}
+
+@media(max-width:991px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    .chief_excutive_section p {
+        padding: 0;
+    }
+
+    .game_changing_section .game_change_para {
+        padding: unset;
+    }
+
+    .game_changing_section .container_color {
+        padding: 0 22px;
+    }
+
+    .every_conference .row_border {
+        margin: 2px;
+    }
+
+}
